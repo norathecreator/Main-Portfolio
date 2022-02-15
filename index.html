@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Nora Hahn Portfolio</title>
+  </head>
+  <body>
+    <div id="intro-anim"></div>
+    <nav id="nav">
+      <a class="title-a"><span class="title">NoraH Design.</span></a>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="desktop-links">
+        <li class="desktop-home desktop-link">
+          <a href="#main" class="desktop-home-a">HOME</a>
+        </li>
+        <li class="desktop-work desktop-link"><a href="#projects">WORK</a></li>
+        <li class="desktop-about desktop-link">
+          <a href="#resume">RESUME</a>
+        </li>
+        <li class="desktop-contact desktop-link">
+          <a href="#contact" class="desktop-contact-a">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="dropdown">
+      <div class="dropdown-container">
+        <a href="#main" class="title-a"
+          ><span class="title dropdown-title">NoraH Design.</span></a
+        >
+        <div class="dropdown-x">X</div>
+        <ul class="dropdown-links">
+          <li class="mobile-home dropdown-link">
+            <a href="#main" class="mobile-home-a">HOME</a>
+          </li>
+          <li class="mobile-work dropdown-link">
+            <a href="#projects" class="mobile-work-a">WORK</a>
+          </li>
+          <li class="mobile-about dropdown-link">
+            <a href="#resume" class="mobile-about-a">RESUME</a>
+          </li>
+          <li class="mobile-contact dropdown-link">
+            <a href="#contact" class="mobile-contact-a">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="main" id="main">
+      <div class="intro" id="main-intro">
+        I'm <span class="name">Nurgul Hahn</span>, a Web Designer from
+        <span class="cali">California.</span>
+      </div>
+      <p id="intro-subtext">
+        Helping startups and small businesses<span
+          >with consistent quality and precision.</span
+        >
+      </p>
+      <div class="button-container" id="intro-subtext">
+        <a href="#contact"><button>CONTACT</button></a>
+        <a href="#projects" class="mywork">My Work</a>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h1>
+        Some of my<br />
+        projects.
+      </h1>
+      <div class="project-gallery">
+        <a href="https://norathecreator.github.io/ph-portfolio/">
+          <img
+            src="sites/site2-portfolio.png"
+            alt=""
+            class="project-img1 project-img"
+          />
+        </a>
+        <a href="https://norathecreator.github.io/Crypto-test-website/">
+          <img
+            src="sites/site10-resize.png"
+            alt=""
+            class="project-img2 project-img"
+          />
+        </a>
+        <a href="https://norathecreator.github.io/makenflow_website/">
+          <img src="sites/site3-makenflow.png" alt="" class="project-img3 project-img" />
+        </a>
+        <a href="https://norathecreator.github.io/ProjectWebsite/">
+          <img
+            src="sites/site4-it.png"
+            alt=""
+            class="project-img4 project-img"
+          />
+        </a>
+      </div>
+      <a href="https://github.com/norathecreator" class="see-projects"
+        >See all projects</a
+      >
+    </section>
+    <section class="resume">
+      <h1 id="resume">My Resume.</h1>
+      <img src="Nurgul Hahn Web Design Resume.png" alt="" class="resume-img" />
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-wrapper">
+        <h1>Contact Me</h1>
+        <span class="email">nurgul.hahn@outlook.com</span>
+        <span class="phone">(786) 695-1715</span>
+        <div class="icons">
+          <img src="icons/github (1).png" alt="" class="github icon" />
+          <img src="icons/linkedin (1).png" alt="" class="linkedin icon" />
+        </div>
+      </div>
+
+      <button class="scroll-btn">Scroll To Top</button>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="gsap.js"></script>
+    <script src="observer.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

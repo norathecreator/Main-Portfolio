@@ -123,7 +123,7 @@ function xClick() {
 }
 
 resumeImg.addEventListener("click", function () {
-  window.open("Nurgul Hahn Web Design Resume.pdf");
+  window.open("Nurgul Hahn Resume.pdf");
 });
 
 email.addEventListener("click", function () {
